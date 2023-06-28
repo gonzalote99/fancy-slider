@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/wbilashee/js-projects/master/assets/icons/fancy-slider.png" type="image/x-icon" >
+  <link rel="stylesheet" href="styles.css" />
+  <title>fancy slider</title>
+</head>
+<body>
+  <main>
+  <div class="form-container">
+   <h3>search image for slider</h3>
+   <form class="search-form">
+    <input
+    type="text"
+    name="image"
+    id="image"
+    autocomplete="off"
+    placeholder="search"
+    />
+    <input class="btn" type="submit" id="searchBtn" value="Search" />
+
+   </form>
+
+  </div>
+  <div class="duration-form-container">
+   <h3>select image for slider</h3>
+   <form class="duration-form">
+     <input
+     type="text"
+     name="duration"
+     id="duration"
+     autocomplete="off"
+     placeholder="change duration"
+  />
+  <input class="btn create-btn" type="submit" value="create slider"/>
+   </form>
+  </div>
+  <div class="gallery">
+     <div class="loader">
+       <img src="https://raw.githubusercontent.com/wbilashee/js-projects/master/fancy-slider/loader.gif" alt="loader" />
+     </div>
+  </div>
+  <div class="slider"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
